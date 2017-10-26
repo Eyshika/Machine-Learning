@@ -12,9 +12,18 @@ in-sample percent fatalities correctly predicted (on training set)
 out‐of‐sample percent survivors correctly predicted (on test set)
 out-of‐sample percent fatalities correctly predicted (on test set)
 
+
+![alt text](tree.png)
+
+
 Step 4: use cross‐validation to find the best parameter to prune the tree. 
 plot a graph with the ‘tree size’ as the x-axis and ‘number of misclassification’ as the Y-axis.
 Find the minimum number of misclassification and choose the corresponding tree size to prune the tree. 
+
+
+![alt text](prune_tree.png)
+
+
 
 Step 5: Find:
 in‐sample and out‐of‐sample accuracy, defined as
